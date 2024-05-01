@@ -8,6 +8,6 @@ def solution(letter):
     '-.--':'y','--..':'z'
     }
     temp = letter.split()
-    for i in temp:
+    for i in temp:  # 모스부호가 알파벳 순서로 작성되어있어 가능
         answer += morse[i]
     return answer

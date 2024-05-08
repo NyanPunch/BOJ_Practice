@@ -1,3 +1,4 @@
+# 소인수분해
 def solution(n):
     answer = []
     i = 2

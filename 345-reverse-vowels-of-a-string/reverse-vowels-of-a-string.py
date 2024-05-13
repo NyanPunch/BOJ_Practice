@@ -6,7 +6,7 @@ class Solution:
 
         l = 0
         r = n-1
-
+        # sort algorithm?
         while l < r:
             while l < r and s[l] not in vowels:
                 l += 1

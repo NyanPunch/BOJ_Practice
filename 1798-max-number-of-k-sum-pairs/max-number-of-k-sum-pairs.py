@@ -4,12 +4,12 @@ class Solution:
         result = 0
         nums.sort()
         while start < end:
-            if k == (nums[start] + nums[end]):
+            sum = nums[start] + nums[end]
+            if k == sum:
                 result += 1
-                print(nums[start], nums[end])
                 start += 1
                 end -= 1
-            elif k > nums[start] + nums[end]:
+            elif k > sum:
                 start += 1
             else:
                 end -= 1            

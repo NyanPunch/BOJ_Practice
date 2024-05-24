@@ -5,5 +5,5 @@ class Solution:
         for i in gain:
             sum += i
             result.append(sum)
-        print(result)
+        
         return max(result)
